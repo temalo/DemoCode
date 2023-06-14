@@ -1,0 +1,18 @@
+{
+	"name": "AzureMLService",
+	"type": "Microsoft.Synapse/workspaces/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureMLService",
+		"typeProperties": {
+			"subscriptionId": "6c089110-0410-45ae-bfa5-4c6658be2e0c",
+			"resourceGroupName": "WMWDemos",
+			"mlWorkspaceName": "temaloAML",
+			"authentication": "MSI"
+		},
+		"connectVia": {
+			"referenceName": "AutoResolveIntegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
